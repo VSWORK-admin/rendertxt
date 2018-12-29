@@ -18,7 +18,7 @@ def ReadJson():
             scene.frame_set(1)
             scene.render.filepath = fp + p['name']
             ##bpy.ops.render.render(write_still=True) # render still
-            bpy.ops.render.render(write_still=False,animation= True) # render animation
+            bpy.ops.render.render(write_still=False,animation= True) # render still
             scene.render.filepath  = startfp
             
 
